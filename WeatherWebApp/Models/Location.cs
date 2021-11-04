@@ -14,18 +14,22 @@ namespace WeatherWebApp.Models
         public int CityId { get; set; }
 
         [Required]
+        [StringLength(50)]
         [DisplayName("Şehir Adı")]
         public string CityName { get; set; }
 
         [Required]
+        [StringLength(50)]
         [DisplayName("Tarih")]
         public string Date { get; set; }
 
         [Required]
+        [StringLength(50)]
         [DisplayName("Havadurumu Tahmini Bilgisi")]
         public string Weather { get; set; }
 
         [Required]
+        [StringLength(50)]
         [DisplayName("Hissedilen Sıcaklık")]
         public string Temperature { get; set; }
 
