@@ -25,7 +25,7 @@ namespace WeatherWebApp.Models
 
         [Required]
         [StringLength(50)]
-        [DisplayName("Havadurumu Tahmini Bilgisi")]
+        [DisplayName("Hava Durumu Tahmini Bilgisi")]
         public string Weather { get; set; }
 
         [Required]
